@@ -1,0 +1,27 @@
+site_name: TDB Internal Documentation
+nav:
+    - Home : index.md
+    - Rules:
+      - General: rules/general.md 
+      - Filename/Directory: rules/filenames.md
+      - Track Naming: rules/tracks.md
+      - Releases: rules/releases.md
+
+
+theme:
+  name: material
+  logo: assets/favicon.ico
+  favicon: assets/favicon.ico
+
+version: 11.0
+navigation_depth: 3
+nav_style:
+  name: TDB Internal Documentation
+  nav_style: dark
+markdown_extensions:
+    - toc:
+        permalink: True
+extra:
+    version: Version 1.0
+extra_css:
+  - stylesheets/extra.css
