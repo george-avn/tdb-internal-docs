@@ -6,7 +6,7 @@ The documentation is automatically deployed from the repository.All changes must
 
 
 
-## Setting up a development inviroment
+## Setting up a development environment
 
 This documentation is built with `mkdocs` and `mkdocs-material`, both of which require `python`.
 
@@ -15,18 +15,28 @@ For big changes, it is recommended that you set this up.**
 
 
 
-### Cloning the repository
+## Cloning the repository
+TODO
 
 
+## Installing presiquisites
+- git
+- python 3.6+
+- pip
+- mkdocs
+- mkdocs-material
 
-### Installing presiquisites
+### Windows
+
+### Linux
 
 
+### Mac
 
+## Starting the development server
 
-### Starting the development server
-
-
+Once everything is setup, you can start the development server with 
+```mkdocs serve```
 
 
 
