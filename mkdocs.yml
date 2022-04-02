@@ -10,8 +10,27 @@ nav:
 
 theme:
   name: material
-  logo: assets/favicon.ico
+  logo: assets/torrentdb-logo.svg
   favicon: assets/favicon.ico
+  features:
+    - navigation.instant
+    - navigation.indexes
+
+    - navigation.tracking
+    - navigation.tabs
+    - offline
+  palette: 
+
+
+    - scheme: slate
+      toggle:
+          icon: material/toggle-switch-off-outline 
+          name: Switch to light mode
+    - scheme: torrentdb
+      toggle:
+          icon: material/toggle-switch
+          name: Switch to dark mode
+
 
 version: 11.0
 navigation_depth: 3
@@ -19,8 +38,15 @@ nav_style:
   name: TDB Internal Documentation
   nav_style: dark
 markdown_extensions:
+    - tables
+    - md_in_html
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
     - toc:
         permalink: True
+    - attr_list
+    - md_in_html
 extra:
     version: Version 1.0
 extra_css:
