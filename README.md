@@ -20,18 +20,20 @@ TODO
 
 
 ## Installing presiquisites
+
+What we are going to install :
 - git
 - python 3.6+
 - pip
 - mkdocs
 - mkdocs-material
 
-### Windows
-
-### Linux
-
-
-### Mac
+#### Windows
+TODO
+#### Linux
+TODO
+#### Mac
+TODO
 
 ## Starting the development server
 
