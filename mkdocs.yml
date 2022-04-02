@@ -19,17 +19,21 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - offline
-  palette: 
+  palette:
+    - media: "(prefers-color-scheme: light)" 
 
 
-    - scheme: slate
+      scheme: default
       toggle:
-          icon: material/toggle-switch-off-outline 
-          name: Switch to light mode
-    - scheme: torrentdb
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+
+
+      scheme: slate
       toggle:
-          icon: material/toggle-switch
-          name: Switch to dark mode
+        icon: material/toggle-switch
+        name: Switch to light mode
 
 
 version: 11.0
